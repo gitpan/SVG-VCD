@@ -69,7 +69,7 @@ included.
 Specifies the source of the observations in the C<Data> line:
 typically either a citation of a published descriptive paper, or
 "personal observation". At present, this is not used: the intention is
-that a future version of vcd2svg will included it in an auto-generated
+that a future version of VertFigure will include it in an auto-generated
 caption.
 
 =item C<Data>
@@ -86,7 +86,7 @@ such as way as to represent cervicals vs. dorsals, pneumatic
 vs. apneumatic vertebrae, bifid vs. simple neural spines, or whatever
 other characteristic is of interest.
 
-Two character in the data is special:
+Two characters in the data are special:
 
 First, the hyphen (C<->) indicates that no data is available for the
 vertebra in question, so nothing is drawn.
@@ -257,7 +257,7 @@ m4 macro processor.)
 
 =head1 SEE ALSO
 
-vcd2svg - program for translating VCD files into SVG.
+VertFigure - program for translating VCD files into SVG.
 
 =head1 AUTHOR
 
